@@ -1,7 +1,7 @@
 const express = require('express')
 const dotenv = require('dotenv')
 
-const app = express()
+let app = express()
 
 dotenv.config({
   path: "./data/config.env"
